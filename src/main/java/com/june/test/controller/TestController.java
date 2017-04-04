@@ -10,4 +10,9 @@ public class TestController {
     public String index() {
         return "Greetings from Spring Boot!";
     }
+    
+    @RequestMapping("/test1")
+    public String test1() {
+        return "Test1";
+    }
 }
