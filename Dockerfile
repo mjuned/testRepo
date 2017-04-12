@@ -12,8 +12,3 @@ RUN apt-get install oracle-java8-installer -y --force-yes
 RUN apt-get install oracle-java8-set-default
 
 EXPOSE 8080
-# Start
-#nohup xvfb-run -a -s "-screen 0 1024x768x24" java -jar ./gs-spring-boot-0.1.0.jar &
-#while :; do
-#  sleep 300
-#done
